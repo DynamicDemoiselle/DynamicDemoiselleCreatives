@@ -1,16 +1,20 @@
+/* Body and General */
 body {
     font-family: Arial, sans-serif;
-    color: #333;
+    color: #333; /* Neutral Color */
     margin: 0;
     padding: 0;
+    background-color: #fff; /* Neutral Background */
 }
 
+/* Header */
 header {
-    background-color: #F74C29;
+    background-color: #F74C29; /* Primary Color */
     color: #fff;
     padding: 1em 0;
 }
 
+/* Navigation */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -27,9 +31,12 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Hero Section */
 .hero {
     text-align: center;
     padding: 4em 0;
+    background-color: #3B2EA1; /* Secondary Color */
+    color: #fff;
 }
 
 .hero h1 {
@@ -38,32 +45,43 @@ nav ul li a {
 }
 
 .cta-button {
-    background-color: #F6CB17;
-    color: #333;
+    background-color: #F6CB17; /* Secondary Color */
+    color: #333; /* Neutral Color */
     padding: 0.5em 1em;
     text-decoration: none;
     border-radius: 5px;
 }
 
+/* Sections */
 #about, #services, #portfolio, #contact {
     padding: 2em 1em;
     text-align: center;
+    background-color: #F6CB17; /* Secondary Color */
+    color: #333; /* Neutral Color */
 }
 
 h2 {
-    color: #F74C29;
+    color: #F74C29; /* Primary Color */
 }
 
+/* Services Section */
 .service, .project, .special-offers {
     margin: 1em 0;
 }
 
-.contact-info p {
-    margin: 0.5em 0;
+.service h3, .project h3, .special-offers h3 {
+    color: #3B2EA1; /* Secondary Color */
 }
 
+/* Contact Info */
+.contact-info p {
+    margin: 0.5em 0;
+    color: #4ECAFE; /* Accent Color */
+}
+
+/* Footer */
 footer {
-    background-color: #3B2EA1;
+    background-color: #3B2EA1; /* Secondary Color */
     color: #fff;
     text-align: center;
     padding: 1em 0;
