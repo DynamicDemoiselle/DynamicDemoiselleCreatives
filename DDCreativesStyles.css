@@ -1,98 +1,16 @@
-/* Body and General */
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    color: #333; /* Neutral Color */
+    font-family: 'Roboto', sans-serif;
+    color: #333;
     margin: 0;
     padding: 0;
-    background-color: #fff; /* Neutral Background */
+    background-color: #fff;
 }
 
 header {
-    background-color: #F74C29; /* Primary Color */
+    background-color: #F74C29;
     color: #fff;
     padding: 1em 0;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 1em;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.hero {
-    text-align: center;
-    padding: 4em 0;
-    background-color: #3B2EA1; /* Secondary Color */
-    color: #fff;
-}
-
-.hero h1 {
-    font-size: 2.5em;
-    margin: 0.5em 0;
-}
-
-.cta-button {
-    background-color: #F6CB17; /* Secondary Color */
-    color: #333; /* Neutral Color */
-    padding: 0.5em 1em;
-    text-decoration: none;
-    border-radius: 5px;
-    display: inline-block;
-    margin-top: 1em;
-}
-
-#about, #services, #portfolio, #contact {
-    padding: 2em 1em;
-    text-align: center;
-}
-
-.content {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-h2 {
-    color: #F74C29; /* Primary Color */
-    margin-bottom: 1em;
-}
-
-.service, .project, .special-offers {
-    margin: 1em 0;
-    background-color: #F6CB17; /* Secondary Color */
-    padding: 1em;
-    border-radius: 5px;
-}
-
-.service h3, .project h3, .special-offers h3 {
-    color: #3B2EA1; /* Secondary Color */
-    margin-bottom: 0.5em;
-}
-
-.contact-info p {
-    margin: 0.5em 0;
-    color: #4ECAFE; /* Accent Color */
-}
-
-footer {
-    background-color: #3B2EA1; /* Secondary Color */
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 1em;
-}
+    position: sticky;
+    top: 0;
+    width: 100%;
