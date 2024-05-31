@@ -53,22 +53,10 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 70vh; /* Adjusted to minimum height */
+    height: 70vh; /* Adjusted to 70% of the viewport height */
     background: url('images/hero-bg.jpg') no-repeat center center/cover;
     color: #fff;
     text-align: center;
-    position: relative; /* Added position relative */
-    z-index: 1; /* Adjust z-index if needed */
-}
-
-.hero-section::after {
-    content: "";
-    display: block;
-    height: 100px; /* Adjust height to ensure content below is visible */
-    width: 100%;
-    background-color: #f4f4f4; /* Match the background color of the body */
-    position: absolute;
-    bottom: -100px; /* Adjust position to ensure visibility */
 }
 
 .hero-content h1 {
