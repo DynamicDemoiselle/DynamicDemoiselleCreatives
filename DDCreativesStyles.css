@@ -7,14 +7,12 @@ body {
     background-color: #fff; /* Neutral Background */
 }
 
-/* Header */
 header {
     background-color: #F74C29; /* Primary Color */
     color: #fff;
     padding: 1em 0;
 }
 
-/* Navigation */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -31,7 +29,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Hero Section */
 .hero {
     text-align: center;
     padding: 4em 0;
@@ -50,39 +47,52 @@ nav ul li a {
     padding: 0.5em 1em;
     text-decoration: none;
     border-radius: 5px;
+    display: inline-block;
+    margin-top: 1em;
 }
 
-/* Sections */
 #about, #services, #portfolio, #contact {
     padding: 2em 1em;
     text-align: center;
-    background-color: #F6CB17; /* Secondary Color */
-    color: #333; /* Neutral Color */
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 h2 {
     color: #F74C29; /* Primary Color */
+    margin-bottom: 1em;
 }
 
-/* Services Section */
 .service, .project, .special-offers {
     margin: 1em 0;
+    background-color: #F6CB17; /* Secondary Color */
+    padding: 1em;
+    border-radius: 5px;
 }
 
 .service h3, .project h3, .special-offers h3 {
     color: #3B2EA1; /* Secondary Color */
+    margin-bottom: 0.5em;
 }
 
-/* Contact Info */
 .contact-info p {
     margin: 0.5em 0;
     color: #4ECAFE; /* Accent Color */
 }
 
-/* Footer */
 footer {
     background-color: #3B2EA1; /* Secondary Color */
     color: #fff;
     text-align: center;
     padding: 1em 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1em;
 }
