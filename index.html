@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="DDCreativesStyles.css">
 </head>
 <body>
-    <!-- Home Page -->
+    <!-- Header Section -->
     <header>
         <nav>
             <ul>
@@ -26,69 +26,73 @@
         </section>
     </header>
 
-    <!-- About Me Page -->
+    <!-- About Me Section -->
     <section id="about">
-        <h2>About Me</h2>
-        <img src="your-photo.jpg" alt="Khayriyah">
-        <p>Hi, I'm Khayriyah, Founder and Lead Designer of Dynamic Demoiselle Creatives. With over 13 years of experience in graphic design, I specialize in creating personalized design solutions for small businesses in the Healing Arts industry.</p>
-        <p>My mission is to empower small business owners through innovative and collaborative design processes. Let's work together to bring your vision to life.</p>
+        <div class="content">
+            <h2>About Me</h2>
+            <img src="images/your-photo.jpg" alt="Khayriyah">
+            <p>Hi, I'm Khayriyah, Founder and Lead Designer of Dynamic Demoiselle Creatives. With over 13 years of experience in graphic design, I specialize in creating personalized design solutions for small businesses in the Healing Arts industry.</p>
+            <p>My mission is to empower small business owners through innovative and collaborative design processes. Let's work together to bring your vision to life.</p>
+        </div>
     </section>
 
-    <!-- Services Page -->
+    <!-- Services Section -->
     <section id="services">
-        <h2>Our Services</h2>
-        <div class="service">
-            <h3>Logo Design</h3>
-            <p>Custom pricing starting at $250</p>
-            <p>Tailored logo creation to represent your brand’s unique identity.</p>
+        <div class="content">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Logo Design</h3>
+                <p>Custom pricing starting at $250</p>
+                <p>Tailored logo creation to represent your brand’s unique identity.</p>
+            </div>
+            <div class="service">
+                <h3>Social Media Graphics</h3>
+                <p>Custom pricing starting at $250</p>
+                <p>Engaging and visually appealing graphics for social media.</p>
+            </div>
+            <div class="special-offers">
+                <h3>Special Offers</h3>
+                <p>75% off debut launch sale. Free service of choice for our 100th follower!</p>
+                <a href="#contact" class="cta-button">Get a Custom Quote</a>
+            </div>
         </div>
-        <div class="service">
-            <h3>Social Media Graphics</h3>
-            <p>Custom pricing starting at $250</p>
-            <p>Engaging and visually appealing graphics for social media.</p>
-        </div>
-        <!-- Add other services here -->
-        <div class="special-offers">
-            <h3>Special Offers</h3>
-            <p>75% off debut launch sale. Free service of choice for our 100th follower!</p>
-        </div>
-        <a href="#contact" class="cta-button">Get a Custom Quote</a>
     </section>
 
-    <!-- Portfolio Page -->
+    <!-- Portfolio Section -->
     <section id="portfolio">
-        <h2>Our Portfolio</h2>
-        <div class="project-gallery">
+        <div class="content">
+            <h2>Our Portfolio</h2>
             <div class="project">
-                <img src="project1.jpg" alt="Project 1">
+                <img src="images/project1.jpg" alt="Project 1">
                 <p>Project 1 Description</p>
             </div>
             <div class="project">
-                <img src="project2.jpg" alt="Project 2">
+                <img src="images/project2.jpg" alt="Project 2">
                 <p>Project 2 Description</p>
             </div>
-            <!-- Add more projects here -->
         </div>
     </section>
 
-    <!-- Contact Page -->
+    <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact Us</h2>
-        <form action="submit_form.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="subject">Subject:</label>
-            <input type="text" id="subject" name="subject" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-        <div class="contact-info">
-            <p>Email: info@dynamicdemoisellecreatives.org</p>
-            <p>Phone: (123) 456-7890</p>
-            <p>Serving: Louisiana, Texas, California, and beyond</p>
+        <div class="content">
+            <h2>Contact Us</h2>
+            <form action="https://formspree.io/YOUR_FORM_ID" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>Email: info@dynamicdemoisellecreatives.org</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Serving: Louisiana, Texas, California, and beyond</p>
+            </div>
         </div>
     </section>
 
